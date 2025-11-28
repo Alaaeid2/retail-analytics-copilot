@@ -27,7 +27,7 @@ The optimizer creates few-shot examples that help the model generate syntactical
 
 ## Key Decisions
 
-1. **CostOfGoods Approximation**: Used `0.7 * UnitPrice` as specified
+1. **CostOfGoods Approximation**: Used `0.7 * UnitPrice`
 2. **Table Naming**: Northwind uses `"Order Details"` (with quotes and space)
 3. **Fallback SQL**: For complex queries, used handcrafted SQL templates
 4. **Confidence Scoring**: Based on SQL success + retrieval scores - repair attempts
